@@ -16,6 +16,7 @@ cd /home/ec2-user
 su ec2-user
 
 mkdir lib
+cd lib
 pip install numpy -t .
 
 # Setup the credentials for the AWS CLI
