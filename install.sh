@@ -12,8 +12,8 @@
 
 
 # ++++++++++++++++++++ START ANACONDA INSTALL +++++++++++++++++++++
-cd /home/ec2-user
-su ec2-user
+cd /home/ubuntu
+#su ec2-user
 
 mkdir lib
 cd lib
