@@ -13,9 +13,10 @@
 
 # ++++++++++++++++++++ START ANACONDA INSTALL +++++++++++++++++++++
 cd /home/ec2-user
-#su ec2-user
+su ec2-user
 
 mkdir lib
+pip install numpy -t .
 
 # Setup the credentials for the AWS CLI
 #aws configure set aws_access_key_id $1
